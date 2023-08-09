@@ -1,0 +1,26 @@
+<div class=" table-responsive  ">
+<table class="table table-responsive  "  dir="rtl" >
+    <thead class="table-primary" >
+      <tr > 
+        <th scope="col">#</th>
+        <th scope="col">تاريخ لإضافة</th>
+        <th scope="col">  نوع  الدفعة</th>
+        <th scope="col">القيمة</th>
+        <th scope="col">نوع السداد</th>
+        <th scope="col">الموظف</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let x of table let i =index" >
+        <th scope="row">{{i+1}}</th>
+        <td>17-12-2022</td>
+        <td>تحت الحساب</td>
+        <td class="text-secondary fw-bold p-4">500 ر.س</td>
+        <td>شيكات</td>
+        <td>1012</td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>

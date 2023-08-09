@@ -1,0 +1,37 @@
+<div >
+    <div dir="rtl">
+    <p>الصفحة الرئيسيه/ عرض جميع العقود/ بيانات العقد</p>
+    <h5 class="fw-semibold">بيانات العقد</h5>
+</div>
+    <div class="d-flex gap-2 my-4" dir="rtl">
+        <h6 class="text-secondary"> <i class="bi bi-exclamation-circle ms-2"></i>حالة العقد:</h6>
+        <h6 class="fw-bold">مفتوح</h6>
+    </div>
+<div   class=" w-100  bg-white shadow rounded-2" >
+    <div class="mt-4" dir="rtl">
+        <app-contract-nav-bar></app-contract-nav-bar>  
+    </div>
+    <div class="mt-4 p-2">
+    <app-contract-buttons></app-contract-buttons>
+</div>
+    <div class="row mt-3">
+        <div class="col-lg-3">
+           <app-contract-receipt></app-contract-receipt>
+        </div>
+        <div class="col-lg-9">
+            <app-contract-table></app-contract-table>
+            <div class="my-3">
+                <button class="btn btn-secondary text-white">إضافة دفعة جديدة <i class="bi bi-plus"></i></button>
+            </div>
+            <div class="mt-4">
+            <app-calculations></app-calculations>
+        </div>
+        <div class="mt-5">
+            <app-empolyee-data></app-empolyee-data>
+        </div>
+        </div>
+        
+    </div>
+   
+</div>
+</div>

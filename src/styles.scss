@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+$primary: #3D5653;
+$light: #f6f5fa;
+$secondary: #D6A218;
+$danger:#10AB4E;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+body{
+    background-color: #F8F8F8;
+}

@@ -1,0 +1,18 @@
+<div class="bg-white shadow p-4 rounded-2">
+    <button class="btn  btn-outline-danger ">طباعة الفاتورة</button>
+    <div class="mt-4" dir="rtl">
+      <app-contract-receipt-drop [title]="'بيانات عامة'"></app-contract-receipt-drop>
+      <app-contract-receipt-drop [title]="'تكاليف'"></app-contract-receipt-drop>
+      <app-contract-receipt-drop [title]="'فاتورة'"></app-contract-receipt-drop>
+      <app-contract-receipt-drop [title]="'ملخص للفاتورة'"></app-contract-receipt-drop>
+    </div>
+    <div class="mt-5">
+       <app-dropdown-menu-item></app-dropdown-menu-item> 
+       
+    </div>
+    <div class="my-4">
+     <app-total-price></app-total-price>
+   </div>
+  <h5 class="text-center mt-2">#626328</h5>
+
+</div>

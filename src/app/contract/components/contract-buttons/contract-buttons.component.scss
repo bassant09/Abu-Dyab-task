@@ -1,0 +1,11 @@
+.btn:hover{
+    color: white;
+   
+}
+
+@media (max-width: 800px) {
+    /* CSS rules specific to smaller screens */
+    .btn {
+      font-size: 10px;
+    }
+  }

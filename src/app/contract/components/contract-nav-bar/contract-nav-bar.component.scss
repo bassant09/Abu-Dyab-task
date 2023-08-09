@@ -1,0 +1,10 @@
+h6{
+    color: white;
+    
+}
+@media (max-width: 800px) {
+    /* CSS rules specific to smaller screens */
+    h6 {
+      font-size: 10px;
+    }
+  }
